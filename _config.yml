@@ -121,7 +121,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "https://iremt@metu.edu.tr"
+      url: "mailto:iremt@metu.edu.tr"
     - label: "Medium"
       icon: "fas fa-fw fa-link"
       url: "https://medium.com/@tanriverdiirem"
