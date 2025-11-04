@@ -12,7 +12,7 @@ author_profile: true
 
 <div class="course-section">
 
-<h3>STAT 204 - Probability II</h3>
+<h3>Probability II</h3>
 <p><strong>Spring 2025</strong></p>
 
 <div class="course-topics">
@@ -25,7 +25,7 @@ author_profile: true
 
 <div class="course-section">
 
-<h3>STAT 365 - Survey Sampling Techniques</h3>
+<h3>Survey Sampling Techniques</h3>
 <p><strong>Fall 2023; Fall 2025</strong></p>
 
 <div class="course-topics">
