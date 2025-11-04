@@ -5,18 +5,18 @@ permalink: /teaching/
 author_profile: true
 ---
 
-## Courses as Teaching Assistant
-*Department of Statistics, Middle East Technical University*
+<h2>Courses as Teaching Assistant</h2>
+<p><em>Department of Statistics, Middle East Technical University</em></p>
 
----
+<hr>
 
 <div class="course-section">
 
-### Mathematical Statistics I
-**Fall 2022**
+<h3>STAT 204 - Probability II</h3>
+<p><strong>Spring 2023</strong></p>
 
 <div class="course-topics">
-<strong>Topics Covered:</strong> Probability theory, distribution functions, expectation, variance, moment generating functions, law of large numbers, central limit theorem, hypothesis testing, confidence intervals, likelihood estimation, and Bayesian inference.
+<strong>Topics Covered:</strong> Transformations of random variables, generating functions, conditional expectation, limit theorems, central limit theorem, limiting distributions.
 </div>
 
 <a href="#" class="download-link"><i class="fas fa-download"></i> Download Lecture Notes</a>
@@ -25,8 +25,34 @@ author_profile: true
 
 <div class="course-section">
 
-### Applied Statistics and Econometrics
-**Fall 2022**
+<h3>STAT 365 - Survey Sampling Techniques</h3>
+<p><strong>Fall 2022</strong></p>
+
+<div class="course-topics">
+<strong>Topics Covered:</strong> Introduction to survey sampling. Probability sampling techniques. Simple random sampling. Stratified element sampling. Systematic sampling. Equal sized cluster sampling. Unequal sized cluster sampling. PPS selection techniques. Sampling errors. Survey research methods. Planning of sample surveys. Questionnaire design techniques. Survey research project.
+</div>
+
+<a href="#" class="download-link"><i class="fas fa-download"></i> Download Lecture Notes</a>
+
+</div>
+
+<div class="course-section">
+
+<h3>Mathematical Statistics I</h3>
+<p><strong>Fall 2022</strong></p>
+
+<div class="course-topics">
+<strong>Topics Covered:</strong> Common theoretical distributions. Sampling distributions. Principles of point estimation. Techniques of estimation. Properties of point estimators. Optimality criteria in estimation. Likelihood principle. Sufficiency principle. Completeness. Confidence Intervals with General method and pivotal method.
+</div>
+
+<a href="#" class="download-link"><i class="fas fa-download"></i> Download Lecture Notes</a>
+
+</div>
+
+<div class="course-section">
+
+<h3>Applied Statistics and Econometrics</h3>
+<p><strong>Fall 2022</strong></p>
 
 <div class="course-topics">
 <strong>Topics Covered:</strong> Introduction to econometrics, linear regression models, time series regression, ARIMA, SARIMA, ARCH, GARCH, panel data models, instrumental variables, and simultaneous equations models.
@@ -38,11 +64,11 @@ author_profile: true
 
 <div class="course-section">
 
-### Computational Statistics
-**Spring 2023**
+<h3>Computational Statistics</h3>
+<p><strong>Spring 2023</strong></p>
 
 <div class="course-topics">
-<strong>Topics Covered:</strong> Monte Carlo methods, bootstrapping, permutation tests, numerical optimization techniques, Markov Chain Monte Carlo (MCMC), resampling techniques, and computational Bayesian inference.
+<strong>Topics Covered:</strong> Random number generation. Generating from other distributions. Monte Carlo methods for inferential statistics. Resampling. Data partitioning. Cross-validation. Bootstraping. Jackknifing. Tools for exploratory and graphical data analysis. Nonparametric probability density estimation.
 </div>
 
 <a href="https://iremtanriverdi.github.io/assets/Statistical_Computing_with_R-R.zip" class="download-link"><i class="fas fa-download"></i> Download Lecture Notes</a>
@@ -51,11 +77,11 @@ author_profile: true
 
 <div class="course-section">
 
-### Linear Models I
-**Fall 2022**
+<h3>Linear Models I</h3>
+<p><strong>Fall 2022</strong></p>
 
 <div class="course-topics">
-<strong>Topics Covered:</strong> Simple and multiple linear regression, matrix approach to linear models, model assumptions, ordinary least squares (OLS), hypothesis testing in regression, and ANOVA models.
+<strong>Topics Covered:</strong> Simple and multiple linear regression, matrix approach to linear models, model assumptions, ordinary least squares (OLS), hypothesis testing in regression. Model adequecy checking. Multicollinearity. Transformations. Model selection. Weighted Least Square estimation.
 </div>
 
 <a href="#" class="download-link"><i class="fas fa-download"></i> Download Lecture Notes</a>
@@ -64,19 +90,16 @@ author_profile: true
 
 <div class="course-section">
 
-### Linear Models II
-**Spring 2023**
+<h3>Linear Models II</h3>
+<p><strong>Spring 2023</strong></p>
 
 <div class="course-topics">
-<strong>Topics Covered:</strong> Generalized linear models (GLMs), logistic regression, Poisson regression, mixed-effects models, repeated measures analysis, variance-covariance structures, and non-parametric regression.
+<strong>Topics Covered:</strong> Generalized linear models (GLMs),non-linear regression, logistic regression, Poisson regression, Robust regression, time series regression, machine learning models.
 </div>
 
 <a href="#" class="download-link"><i class="fas fa-download"></i> Download Lecture Notes</a>
 
 </div>
 
----
+<hr>
 
-<p style="font-size: 0.9rem; color: #666; margin-top: 2rem;">
-<em>Note: Lecture notes are being updated and will be available soon for all courses.</em>
-</p>
