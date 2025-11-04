@@ -79,26 +79,50 @@ strong {
 }
 
 /* Author Profile Sidebar - BÜYÜTÜLDÜ */
-.author__bio {
+.sidebar .author__avatar {
+  margin-bottom: 1rem;
+}
+
+.sidebar .author__content {
   font-size: 1.1rem !important;
-  line-height: 1.7;
 }
 
-.author__name {
+.sidebar .author__name {
   font-size: 1.75rem !important;
-  font-weight: 700;
+  font-weight: 700 !important;
   margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
-.author__urls {
+.sidebar .author__bio {
+  font-size: 1.1rem !important;
+  line-height: 1.7 !important;
+  margin-bottom: 1rem;
+}
+
+.sidebar .author__bio p {
+  font-size: 1.1rem !important;
+  line-height: 1.7 !important;
+}
+
+.sidebar .author__urls-wrapper {
   font-size: 1.05rem !important;
 }
 
-.author__urls li {
-  margin-bottom: 0.4rem;
+.sidebar .author__urls {
+  font-size: 1.05rem !important;
 }
 
-.author__urls a {
+.sidebar .author__urls li {
+  margin-bottom: 0.4rem;
+  font-size: 1.05rem !important;
+}
+
+.sidebar .author__urls a {
+  font-size: 1.05rem !important;
+}
+
+.sidebar .author__urls .label {
   font-size: 1.05rem !important;
 }
 
