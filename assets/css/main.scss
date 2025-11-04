@@ -78,27 +78,28 @@ strong {
   margin-top: 0;
 }
 
-/* Author Profile Sidebar */
+/* Author Profile Sidebar - BÜYÜTÜLDÜ */
 .author__bio {
-  font-size: 1rem !important; /* 0.9rem'den büyütüldü */
-  line-height: 1.6;
+  font-size: 1.1rem !important;
+  line-height: 1.7;
 }
 
 .author__name {
-  font-size: 1.5rem !important; /* 1.3rem'den büyütüldü */
-  font-weight: 600;
+  font-size: 1.75rem !important;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
 }
 
 .author__urls {
-  font-size: 0.95rem !important; /* 0.85rem'den büyütüldü */
+  font-size: 1.05rem !important;
 }
 
 .author__urls li {
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.4rem;
 }
 
 .author__urls a {
-  font-size: 0.95rem !important;
+  font-size: 1.05rem !important;
 }
 
 /* Navigation */
