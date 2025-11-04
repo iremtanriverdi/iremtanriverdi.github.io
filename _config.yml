@@ -129,16 +129,16 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/iremtanriverdi"
     - label: "ORCID"
-  icon: "fab fa-fw fa-orcid"
-  url: "https://orcid.org/0009-0006-7142-5163"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0009-0006-7142-5163"
   
-- label: "Web of Science"
-  icon: "fas fa-fw fa-graduation-cap"
-  url: "https://www.webofscience.com/wos/author/record/OPN-5727-2025"
+    - label: "Web of Science"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://www.webofscience.com/wos/author/record/OPN-5727-2025"
   
-- label: "Institution"
-  icon: "fas fa-fw fa-university"
-  url: "https://avesis.metu.edu.tr/iremt"
+    - label: "Institution"
+      icon: "fas fa-fw fa-university"
+      url: "https://avesis.metu.edu.tr/iremt"
 
 # Site Footer
 footer:
