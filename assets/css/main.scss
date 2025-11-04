@@ -81,6 +81,16 @@ strong {
 /* Author Profile Sidebar - BÜYÜTÜLDÜ */
 .sidebar .author__avatar {
   margin-bottom: 1rem;
+  max-width: 180px !important;
+  width: 180px !important;
+  height: 180px !important;
+}
+
+.sidebar .author__avatar img {
+  max-width: 180px !important;
+  width: 180px !important;
+  height: 180px !important;
+  border-radius: 50%;
 }
 
 .sidebar .author__content {
@@ -325,6 +335,18 @@ a:hover {
   
   .course-section {
     padding: 1rem;
+  }
+  
+  .sidebar .author__avatar {
+    max-width: 150px !important;
+    width: 150px !important;
+    height: 150px !important;
+  }
+  
+  .sidebar .author__avatar img {
+    max-width: 150px !important;
+    width: 150px !important;
+    height: 150px !important;
   }
 }
 
