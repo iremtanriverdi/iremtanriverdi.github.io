@@ -80,17 +80,25 @@ strong {
 
 /* Author Profile Sidebar */
 .author__bio {
-  font-size: 0.9rem !important;
+  font-size: 1rem !important; /* 0.9rem'den büyütüldü */
   line-height: 1.6;
 }
 
 .author__name {
-  font-size: 1.3rem !important;
+  font-size: 1.5rem !important; /* 1.3rem'den büyütüldü */
   font-weight: 600;
 }
 
 .author__urls {
-  font-size: 0.85rem !important;
+  font-size: 0.95rem !important; /* 0.85rem'den büyütüldü */
+}
+
+.author__urls li {
+  margin-bottom: 0.3rem;
+}
+
+.author__urls a {
+  font-size: 0.95rem !important;
 }
 
 /* Navigation */
