@@ -37,6 +37,7 @@ Concentrated on the development of machine learning models designed for longitud
 Acquired a strong foundation in statistical theory, including courses in Probability, Linear Models, and Multivariate Analysis. Developed practical skills in data analysis, statistical computing, and survey techniques through hands-on coursework such as Statistical Methods and Computational Statistics. Excelled in courses related to time series and categorical data analysis, database management systems which prepared for advanced studies in machine learning and data science.
 
 ---
+---
 
 ### Skills & Expertise
 
