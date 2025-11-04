@@ -1,9 +1,294 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
-search: false
 ---
 
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* ==========================================================================
+   CUSTOM STYLES - Typography & Layout Improvements
+   ========================================================================== */
+
+/* Base Typography Adjustments */
+html {
+  font-size: 16px; /* Reduced from default 18px */
+  
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Heading Sizes - More Balanced */
+h1 {
+  font-size: 1.8rem !important;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  margin-top: 2rem;
+  line-height: 1.3;
+}
+
+h2 {
+  font-size: 1.5rem !important;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 1.25rem !important;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  margin-top: 1.2rem;
+  line-height: 1.3;
+}
+
+h4 {
+  font-size: 1.1rem !important;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+  margin-top: 1rem;
+}
+
+/* Paragraph & Body Text */
+p, li {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+/* Remove excessive bold styling */
+strong {
+  font-weight: 600; /* Less aggressive than 700 */
+}
+
+/* Page Title */
+.page__title {
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+/* Author Profile Sidebar */
+.author__bio {
+  font-size: 0.9rem !important;
+  line-height: 1.6;
+}
+
+.author__name {
+  font-size: 1.3rem !important;
+  font-weight: 600;
+}
+
+.author__urls {
+  font-size: 0.85rem !important;
+}
+
+/* Navigation */
+.greedy-nav {
+  font-size: 0.95rem !important;
+}
+
+.greedy-nav a {
+  font-weight: 500;
+}
+
+/* Pagination - Reduce Size */
+.pagination {
+  font-size: 0.9rem !important;
+  margin: 2rem 0;
+}
+
+.pagination--pager {
+  padding: 0.5rem 1rem !important;
+  font-size: 0.9rem !important;
+}
+
+/* Teaching Page Course Sections */
+.course-section {
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-left: 4px solid #52adc8;
+  border-radius: 4px;
+}
+
+.course-section h4 {
+  color: #2c3e50;
+  margin-top: 0;
+  font-size: 1.2rem !important;
+}
+
+.course-topics {
+  margin: 1rem 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.course-topics strong {
+  color: #2c3e50;
+}
+
+.download-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 1rem;
+  background-color: #52adc8;
+  color: white !important;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.download-link:hover {
+  background-color: #3d8ba6;
+}
+
+.download-link i {
+  margin-right: 0.5rem;
+}
+
+/* Content Alignment */
+.page__content {
+  text-align: left;
+  max-width: 100%;
+}
+
+.page__content p,
+.page__content li {
+  text-align: left;
+}
+
+/* List Improvements */
+ul, ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Links */
+a {
+  color: #52adc8;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #3d8ba6;
+  text-decoration: underline;
+}
+
+/* Publications & Projects Pages */
+.publications-list,
+.projects-list {
+  margin-top: 2rem;
+}
+
+.publication-item,
+.project-item {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.publication-item:last-child,
+.project-item:last-child {
+  border-bottom: none;
+}
+
+/* Abstract Sections */
+.abstract-section {
+  margin-top: 1rem;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.abstract-section summary {
+  padding: 0.8rem 1rem;
+  background-color: #f6f8fa;
+  cursor: pointer;
+  font-weight: 500;
+  color: #52adc8;
+  transition: background-color 0.3s ease;
+  list-style: none;
+}
+
+.abstract-section summary::-webkit-details-marker {
+  display: none;
+}
+
+.abstract-section summary:hover {
+  background-color: #e8f4f8;
+}
+
+.abstract-content {
+  padding: 1rem 1rem 1rem 1rem;
+  background-color: #ffffff;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #24292e;
+  text-align: justify;
+}
+
+.abstract-content p {
+  margin-bottom: 0.8rem;
+}
+
+/* DOI Links in Publications */
+.publication-item a[href*="doi.org"] {
+  display: inline-block;
+  margin-top: 0.3rem;
+  color: #0366d6;
+  font-size: 0.9rem;
+  font-family: 'Courier New', monospace;
+}
+
+.publication-item a[href*="doi.org"]:hover {
+  text-decoration: underline;
+}
+
+/* Footer Adjustments */
+.page__footer {
+  font-size: 0.85rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .page__title {
+    font-size: 1.6rem !important;
+  }
+  
+  h1 {
+    font-size: 1.5rem !important;
+  }
+  
+  h2 {
+    font-size: 1.3rem !important;
+  }
+  
+  .course-section {
+    padding: 1rem;
+  }
+}
+
+/* Emoji Size Fix */
+img.emoji {
+  height: 1em;
+  width: 1em;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em;
+}
